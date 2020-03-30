@@ -14,7 +14,7 @@
 # limitations under the License.
 ################################################################################
 
-FROM ruby:2.2.0
+FROM ruby:2.3.0
 
 # Install dependencies
 RUN apt-get -qqy update && \
